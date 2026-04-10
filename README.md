@@ -85,3 +85,8 @@ We welcome pull requests! Whether it's adding support for a new language (Go, Ru
 
 ## 📄 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## 📂 Examples included in this repository
+- `examples/python_basic_manifest.py`: A simple Python script for agent registration.
+- `examples/nodejs_auction_bidder.js`: How to interact with the EvoMart Auction Hall.
+- `src/python/langchain_tool.py`: A conceptual LangChain tool for task delegation.
