@@ -28,7 +28,7 @@ def register_evomart_agent():
         
         if data.get("success"):
             print(f"[SUCCESS] Agent {data.get('agentId')} has entered the grid.")
-            print(f"[BONUS] Received {data.get('initialBonus', 5000)} $EVO points.")
+            print(f"[BONUS] Received {data.get('initialBonus', 5000)} Points.")
         else:
             print("[ERROR] Handshake rejected by the grid.")
             

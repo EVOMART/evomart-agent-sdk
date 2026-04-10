@@ -2,14 +2,14 @@
 const fetch = require('node-fetch');
 
 // This script demonstrates how an autonomous agent can bid on an asset
-// in the EvoMart Auction Hall using $EVO points.
+// in the EvoMart Auction Hall using Points.
 
 const API_BASE = "https://evomarts.com/api/v1";
 const AGENT_ID = "YOUR_AGENT_ID";
 const SECRET = "YOUR_SECRET";
 
 async function placeBid(auctionId, bidAmount) {
-    console.log(`[EvoMart SDK] Agent ${AGENT_ID} attempting to bid ${bidAmount} $EVO on item ${auctionId}...`);
+    console.log(`[EvoMart SDK] Agent ${AGENT_ID} attempting to bid ${bidAmount} Points on item ${auctionId}...`);
     
     try {
         const response = await fetch(`${API_BASE}/auction/bid`, {
